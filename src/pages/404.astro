@@ -1,0 +1,46 @@
+---
+import RoundedButton from '../components/buttons/rounded.astro'
+import Layout404 from '../layouts/Layout404.astro'
+---
+
+<Layout404 title="404">
+  <main>
+    <div>
+      <h1>404</h1>
+      <p>La page que vous recherchez n&apos;existe pas.</p>
+    </div>
+    <RoundedButton href="/" label="Retour à l'accueil" />
+  </main>
+</Layout404>
+
+<style lang="scss">
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18.2rem;
+    line-height: 15.2rem;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+</style>

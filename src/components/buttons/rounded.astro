@@ -1,0 +1,23 @@
+---
+interface Props {
+  href: string
+  label: string
+}
+
+const { href, label } = Astro.props
+---
+
+<a href={href}>{label}</a>
+
+<style lang="scss">
+  @import '../../styles/main.scss';
+  a {
+    border: 1px solid $white;
+    border-radius: 60px;
+    width: 237px;
+    padding: 19px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+  }
+</style>

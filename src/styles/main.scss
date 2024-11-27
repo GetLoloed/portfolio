@@ -1,0 +1,24 @@
+@import './base/reset.scss';
+@import './base/colors.scss';
+@import './base/typography.scss';
+@import './base/fonts.scss';
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+h1 {
+  font-family: 'Humane-Bold', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'AnonymousPro-Bold', sans-serif;
+}
+body {
+  font-family: 'AnonymousPro-Regular', sans-serif;
+  line-height: 1.5rem;
+}
+
+button {
+  font-family: 'AnonymousPro-Bold', sans-serif;
+}
